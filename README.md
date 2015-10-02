@@ -1,2 +1,2 @@
 # ggplot2-theme
-a ggplot2 designed to make it easier to create publication quality figures
+A ggplot2 theme designed to make it easier to create publication quality figures
