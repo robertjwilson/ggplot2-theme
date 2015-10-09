@@ -5,8 +5,8 @@
 #' plot_type = the type of plot. "Formal" or "Informal"
 #' lines_lwd = width of lines
 #' plot_grid = Do you want a grid?
-#' font.type Font type
-#' title.size = font size of title
+#' font_type Font type
+#' title_size = font size of title
 #' legend_size = font size of legend
 #' bg_col = background colour
 #' title_font = font use for title
@@ -17,6 +17,7 @@
 #' alpha_leg = opacity of the legend. 0 = totally transparent
 #' strip_bg = colour background for facets
 #' grid_thick = A multiplier to apply to the grid lines. 0.8 would reduce thickness by 20%
+
 
 
 
@@ -43,7 +44,7 @@ theme_agile <- function(base_size = 11, base_family = "Arial", plot_type = "form
 		panel.grid.major.y = ggplot2::element_line(colour = ifelse(horz_grid, "grey60",bg_col), size = ifelse(horz_grid,0.45* grid_thick, 0)),
 		panel.grid.minor.y = ggplot2::element_line(colour = ifelse(horz_grid, ifelse(minor_grid, "grey80",bg_col),bg_col), size = ifelse(horz_grid,0.35* grid_thick, 0)),
 		panel.grid.major = ggplot2::element_line(colour = "grey40", size=0.45),
-		plot.title = ggplot2::element_text(face="bold",hjust = ifelse(plot_type == "formal", 0.5, 0) ,vjust = 2, colour = base_col , size = title.size, family = title_font),
+		plot.title = ggplot2::element_text(face="bold",hjust = ifelse(plot_type == "formal", 0.5, 0) ,vjust = 2, colour = base_col , size = title_size, family = title_font),
 		legend.background = ggplot2::element_rect(fill = scales::alpha(legend_bg, alpha_leg)), legend.key = ggplot2::element_blank(),
 		legend.text = ggplot2::element_text(size = legend_size),
 		legend.title = element_blank(),
