@@ -1,27 +1,22 @@
-#' Theme used for blog posts
+#' Theme used to create journal ready figures easily
 #'
-#' Theme used for blogs
-#'
-#' @param base_size Font size
-#' @param base_family Font used for everything, unless axis fonts etc. are defined
-#' @param plot_type = the type of plot. "Formal" or "Informal"
-#' @param lines_lwd = width of lines
-#' @param plot_grid = Do you want a grid?
-#' @param font.type Font type
-#' @param title.size = font size of title
-#' @param legend_size = font size of legend
-#' @param bg_col = background colour
-#' @param title_font = font use for title
-#' @param base_col  = font colour
-#' @param ticks_length = length of the axis ticks
-#' @param horz_grid = Do you want a horizontal grid?
-#' @param bord_size = width of a rectangular border
-#' @param alpha_leg = opacity of the legend. 0 = totally transparent
-#' @param strip_bg = colour background for facets
-#' @param grid_thick = A multiplier to apply to the grid lines. 0.8 would reduce thickness by 20%
-#' @return ggplot2 theme
-#'
-#' @export
+#' base_size = Font size
+#' base_family = Font used for everything, unless axis fonts etc. are defined
+#' plot_type = the type of plot. "Formal" or "Informal"
+#' lines_lwd = width of lines
+#' plot_grid = Do you want a grid?
+#' font.type Font type
+#' title.size = font size of title
+#' legend_size = font size of legend
+#' bg_col = background colour
+#' title_font = font use for title
+#' base_col  = font colour
+#' ticks_length = length of the axis ticks
+#' horz_grid = Do you want a horizontal grid?
+#' bord_size = width of a rectangular border
+#' alpha_leg = opacity of the legend. 0 = totally transparent
+#' strip_bg = colour background for facets
+#' grid_thick = A multiplier to apply to the grid lines. 0.8 would reduce thickness by 20%
 
 
 
